@@ -12,7 +12,7 @@
     <PackageProjectUrl>https://github.com/renshiyou/alipay-easysdk</PackageProjectUrl>
     <Summary>Alipay Easy SDK for .NET allows you to enjoy a minimalist programming experience and quickly access the various high-frequency capabilities of the Alipay Open Platform.</Summary>
     <Title>Alipay Easy SDK</Title>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
