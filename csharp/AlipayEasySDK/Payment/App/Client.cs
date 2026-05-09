@@ -43,6 +43,7 @@ namespace Alipay.EasySDK.Payment.App
                 {"subject", subject},
                 {"out_trade_no", outTradeNo},
                 {"total_amount", totalAmount},
+                {"product_code", "QUICK_MSECURITY_PAY"}
             };
             Dictionary<string, string> textParams = new Dictionary<string, string>(){};
             string sign = this._kernel.Sign(systemParams, bizParams, textParams, this._kernel.GetConfig("merchantPrivateKey"));
