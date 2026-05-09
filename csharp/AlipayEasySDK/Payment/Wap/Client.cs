@@ -53,7 +53,7 @@ namespace Alipay.EasySDK.Payment.Wap
             string sign = this._kernel.Sign(systemParams, bizParams, textParams, this._kernel.GetConfig("merchantPrivateKey"));
             Dictionary<string, string> response = new Dictionary<string, string>
             {
-                {"body", this._kernel.GeneratePage("POST", systemParams, bizParams, textParams, sign)},
+                {"body", this._kernel.GeneratePage("GET", systemParams, bizParams, textParams, sign)},
             };
             return TeaModel.ToObject<AlipayTradeWapPayResponse>(response);
         }
